@@ -1,0 +1,10 @@
+# PyTorch wheels: Python 3.10–3.13 (often none for 3.14 on pip)
+# Course setup: conda create -n comp_pde python=3.11 && pip install -r requirements-comp_pde.txt
+# This file is loose bounds; for reproducibility use requirements-comp_pde.txt
+
+numpy>=1.24
+matplotlib>=3.7
+scipy>=1.10
+sympy>=1.12
+torch>=2.0
+ipykernel>=6.29

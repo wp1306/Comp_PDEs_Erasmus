@@ -1,0 +1,19 @@
+# Pinned stack for conda/venv env `comp_pde` (course: computational PDE / PINN)
+# Python 3.11.x recommended (reference build: 3.11.14)
+#
+# Install everything once:
+#   pip install -r requirements-comp_pde.txt
+#
+# Core: numpy, matplotlib, torch
+# Other notebooks in this folder: scipy, sympy
+# Jupyter / Cursor: ipykernel
+
+numpy==1.26.4
+matplotlib==3.10.9
+torch==2.2.2
+scipy==1.17.1
+sympy==1.14.0
+ipykernel>=6.29
+
+# Uncomment if a notebook imports torchvision (0.17.2 pairs with torch 2.2.2)
+# torchvision==0.17.2
